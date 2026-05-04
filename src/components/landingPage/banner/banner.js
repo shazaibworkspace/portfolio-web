@@ -42,7 +42,7 @@ const Banner = () => {
           <div className="banner-container-left">
             <p>WELCOME TO MY CREATIVE JOURNEY!</p>
             <h1>
-              Hi, I’m Zeeshan Ahsan <span class="wave">👋</span>
+              Hi, I’m Muhammad Shazaib <span class="wave">👋</span>
             </h1>
             <h2>
               A{" "}

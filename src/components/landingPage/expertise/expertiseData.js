@@ -34,6 +34,19 @@ const NpmIcon = require("../../../assets/images/npm-icon.png");
 const YarnIcon = require("../../../assets/images/yarn-icon.png");
 const WebpackIcon = require("../../../assets/images/webpack-icon.png");
 const FigmaIcon = require("../../../assets/images/figma-icon.png");
+const MernIcon = require("../../../assets/images/mern.png");
+const MeanIcon = require("../../../assets/images/mean.jpg");
+const NestIcon = require("../../../assets/images/nestjs.webp");
+const PostIcon = require("../../../assets/images/post.png");
+const CopilotIcon = require("../../../assets/images/copilot.webp");
+const AntiGravityIcon = require("../../../assets/images/antigravity.png");
+const CursorIcon = require("../../../assets/images/cursor.png");
+const TraiIcon = require("../../../assets/images/trai.png");
+const GithubIcon = require("../../../assets/images/github.png");
+const UbuntuIcon = require("../../../assets/images/ubuntu.png");
+const RedisIcon = require("../../../assets/images/redis.png");
+const DockerIcon = require("../../../assets/images/docker.png");
+const AwsIcon = require("../../../assets/images/aws.png");
 const expertiseContent = [
   {
     title: "Expertise",
@@ -52,6 +65,23 @@ const expertiseContent = [
         description: "Bootstrap 5",
       },
       { name: "Sass", icon: SassIcon, description: "Sass" },
+    ],
+  },
+  {
+    title: "Backend / Full Stack",
+    skills: [
+      { name: "MERN Stack", icon: MernIcon, description: "MERN Stack" },
+      { name: "MEAN Stack", icon: MeanIcon, description: "MEAN Stack" },
+      { name: "Express.js", icon: ExpressIcon, description: "Express.js" },
+      { name: "NestJS", icon: NestIcon, description: "NestJS" },
+    ],
+  },
+  {
+    title: "Databases",
+    skills: [
+      { name: "MongoDB", icon: MongoIcon, description: "MongoDB" },
+      { name: "MySQL", icon: MysqlIcon, description: "MySQL" },
+      { name: "PostgreSQL", icon: PostIcon, description: "PostgreSQL" },
     ],
   },
   // {
@@ -107,6 +137,15 @@ const expertiseContent = [
       },
       { name: "NPM", icon: NpmIcon, description: "NPM" },
       { name: "Yarn", icon: YarnIcon, description: "Yarn" },
+      { name: "AWS", icon: AwsIcon, description: "AWS" },
+      { name: "Docker", icon: DockerIcon, description: "Docker" },
+      { name: "Redis", icon: RedisIcon, description: "Redis" },
+      { name: "Ubuntu", icon: UbuntuIcon, description: "Ubuntu" },
+      { name: "GitHub Actions", icon: GithubIcon, description: "GitHub Actions" },
+      { name: "Trae.ai", icon: TraiIcon, description: "Trae.ai" },
+      { name: "Cursor AI", icon: CursorIcon, description: "Cursor AI" },
+      { name: "Antigravity", icon: AntiGravityIcon, description: "Antigravity" },
+      { name: "GitHub Copilot", icon: CopilotIcon, description: "GitHub Copilot" },
       // { name: "Webpack", icon: WebpackIcon, description: "Webpack" },
       {
         name: "Figma",

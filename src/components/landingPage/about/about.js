@@ -34,18 +34,19 @@ const About = () => {
               Hi There<span>✌</span>
             </h1>
             <p>
-              I am a senior front-end developer with over 3 years of extensive
+              I am a senior full-stack developer with over 3 years of extensive
               experience in building high-performance web applications using
               modern technologies. My expertise lies in creating dynamic and
               responsive user interfaces, ensuring seamless user experiences,
               and delivering scalable, maintainable solutions.
             </p>
             <p>
-              As a Front-End Developer specializing in React.js, I excel in
-              leveraging tools like Redux Toolkit, TypeScript, Vite, SCSS. My
-              projects range from small-scale web apps to complex
-              enterprise-level solutions, showcasing my adaptability and
-              attention to detail.
+              As a Full-Stack Developer specializing in MERN and MEAN stacks,
+              I build powerful frontend experiences while delivering backend
+              APIs, database design, and deployable cloud-ready applications.
+              My toolkit includes React.js, Next.js, Express.js, NestJS,
+              MongoDB, MySQL, PostgreSQL, Docker, AWS, Redis, Ubuntu, and
+              GitHub Actions.
             </p>
             <p>
               Technical Specifications:
@@ -53,9 +54,11 @@ const About = () => {
               <strong>Front-End Technologies:</strong> React.js, Next.js, Redux
               Toolkit, TypeScript, Vite, SCSS
               <br />
-              <strong>UI/UX Development:</strong> Focused on creating intuitive
-              and visually appealing user interfaces with robust accessibility
-              and performance.
+              <strong>Back-End Technologies:</strong> Node.js, Express.js,
+              NestJS, MongoDB, MySQL, PostgreSQL
+              <br />
+              <strong>DevOps & Tools:</strong> Docker, AWS, Redis, Ubuntu,
+              GitHub Actions (CI/CD)
               <br />
               <strong>State Management:</strong> Advanced knowledge of Redux
               Toolkit, Context API, and React Query for efficient state

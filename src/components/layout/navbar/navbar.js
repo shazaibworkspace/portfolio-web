@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="navbar-section">
       <div className="container navbar-container">
         <div className="navbar-logo-wrapper">
-          <h1>Zeeshan Ahsan</h1>
+          <h1>Muhammad Shazaib</h1>
         </div>
         <div className="navbar-link-wrapper">
           <ul className={`${isMenuOpen ? "open" : ""}`}>

@@ -5,7 +5,7 @@ const SideLink = () => {
   return (
     <div className="sidelink-wrapper">
       <div className="side-link">
-        <a href="https://github.com/M-Zeeshan-Ahsan" target="_blank">
+        <a href="https://github.com/shazaibkodextech" target="_blank">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -23,7 +23,7 @@ const SideLink = () => {
           </svg>
         </a>
         <a
-          href="https://www.linkedin.com/in/muhammad-zeeshan-ahsan-5870531b4"
+          href="https://www.linkedin.com/in/muhammad-shazaib-s7043429"
           target="_blank"
         >
           <svg
@@ -44,7 +44,7 @@ const SideLink = () => {
         </a>
 
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=ahsansahi6@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=shazaib43429@gmail.com"
           target="_blank"
         >
           <svg

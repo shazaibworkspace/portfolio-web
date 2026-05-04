@@ -5,7 +5,7 @@ const PortfolioTen = require("../../../assets/images/project10.png");
 const PortfolioEleven = require("../../../assets/images/project11.png");
 const SunChoiceProject = require("../../../assets/images/sunchoice-project.png");
 const ShippelloProject = require("../../../assets/images/shipello-project.png");
-const CleaqueProject = require("../../../assets/images/cleaques-project.png");
+const QadriAutos = require("../../../assets/images/qadri-autos.pk.png");
 const CasanaProject = require("../../../assets/images/casana-project.png");
 const LiveliProject = require("../../../assets/images/liveli-project.png");
 const portfolioData = [
@@ -123,20 +123,19 @@ const portfolioData = [
     websiteLink: "https://shippelloinvoices.com/",
   },
   {
-    title: "Cleaques",
-    image: CleaqueProject,
+    title: "Qadri Autos",
+    image: QadriAutos,
     description:
-      "Cleaques is a lifestyle platform designed to connect African and Caribbean diasporas, enabling secure product exchanges, services, and community building.",
+      "A full-stack automotive platform developed with modern web technologies, featuring dynamic UI, optimized performance, and scalable backend architecture.",
     tags: [
       "React",
-      "Context API",
-      "Tailwind",
-      "Firebase",
-      "NodeJS",
-      "SSLCOMMERZ",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
     ],
-    type: ["Landing Page", "Front End", "Others"],
-    websiteLink: "https://www.cleaques.com/",
+    type: ["Full Stack", "Front End", "Others"],
+    websiteLink: "https://qadriautos.pk/",
   },
   {
     title: "Liveli",

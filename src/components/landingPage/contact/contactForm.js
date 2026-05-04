@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import axios from "axios";
 import "./contact.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useFormspark } from "@formspark/use-formspark";
 import emailjs from "emailjs-com";
 
 const ContactForm = () => {
@@ -57,27 +55,6 @@ const ContactForm = () => {
     return isValid;
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   if (validateForm()) {
-  //     const apiUrl = "https://submit-form.com/Rsqe681Uw";
-  //     axios
-  //       .post(apiUrl, formData)
-  //       .then((response) => {
-  //         toast.success("Request submitted successfully!");
-  //         setTimeout(() => {
-  //           setFormData({
-  //             name: "",
-  //             email: "",
-  //             message: "",
-  //           });
-  //         }, 2000);
-  //       })
-  //       .catch((error) => {
-  //         toast.error("Error submitting form. Please try again later.");
-  //       });
-  //   }
-  // };
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
