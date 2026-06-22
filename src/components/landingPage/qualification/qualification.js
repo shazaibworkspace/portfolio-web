@@ -22,7 +22,7 @@ const Qualification = () => {
           <div className="experince-card">
             <div className="experience-container-left">
               <div className="experience-year">
-                <h1>Apr 2021 - May 2025</h1>
+                <h1>Jan 2021 - Jan 2025</h1>
                 <div className="experience-colon"></div>
               </div>
             </div>

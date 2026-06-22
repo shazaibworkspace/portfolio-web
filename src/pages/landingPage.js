@@ -10,13 +10,13 @@ import ContactModal from "../components/common/contactModal/contactModal";
 
 const LandingPage = () => {
   const [modalShow, setModalShow] = React.useState(false);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setModalShow(true);
-    }, 6000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setModalShow(true);
+  //   }, 6000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
   return (
     <>
       <Banner />

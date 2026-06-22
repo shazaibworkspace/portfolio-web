@@ -1,5 +1,6 @@
 .experience-section {
-  padding: 5.5rem 0 0 0;
+  padding: 4rem 0 3rem 0;
+  background: #0a0a0f;
 }
 .experince-container-content {
   padding-top: 3rem;
@@ -9,7 +10,7 @@
 }
 .experience-container-left {
   width: 50%;
-  border-right: 5px solid hsla(0, 0%, 100%, 0.4);
+  border-right: 3px solid rgba(255, 255, 255, 0.1);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -21,18 +22,20 @@
   margin-right: -10px;
 }
 .experience-year h1 {
-  color: hsla(0, 0%, 100%, 0.699);
+  color: #ff4a57;
   font-size: 1rem;
   margin: 0;
+  font-weight: 600;
 }
 .experience-colon {
-  background: white;
-  border: 4px solid #ff4a57;
-  width: 16px;
-  height: 16px;
-  min-width: 16px;
-  min-height: 16px;
+  background: #ff4a57;
+  border: 3px solid #0a0a0f;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  min-height: 18px;
   border-radius: 50%;
+  box-shadow: 0 0 15px rgba(255, 74, 87, 0.5);
 }
 .experience-container-right {
   width: 50%;
@@ -41,14 +44,14 @@
   padding-left: 2rem;
 }
 .experience-container-right h1 {
-  color: white;
+  color: #ffffff;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 .experience-container-right p {
-  color: #e9e9eb;
-  font-size: 1.3rem;
-  font-weight: 400;
+  color: #9c72be;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 .experience-container-right ul {
   padding-left: 0;
@@ -62,14 +65,15 @@
   content: "";
   width: 8px;
   height: 8px;
-  background: #e9e9eb;
+  background: #ff4a57;
   border-radius: 50%;
   position: absolute;
   left: 0;
-  top: 8px;
+  top: 10px;
+  box-shadow: 0 0 8px rgba(255, 74, 87, 0.5);
 }
 .experience-container-right ul li {
-  color: #e9e9eb;
+  color: #d0d2dc;
   font-size: 1rem;
   position: relative;
   padding-left: 30px;
@@ -87,18 +91,18 @@
     font-size: 0.9rem;
   }
   .experience-colon {
-    width: 12px;
-    height: 12px;
-    min-width: 12px;
-    min-height: 12px;
-    border: 3px solid #ff4a57;
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+    border: 2px solid #0a0a0f;
   }
   .experience-container-right {
     width: 100%;
     padding-left: 1rem;
   }
   .experience-container-right h1 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .experience-container-right p {
     font-size: 1rem;
@@ -108,6 +112,8 @@
     padding-left: 15px;
   }
   .experience-container-right ul li::before {
-    top: 7px;
+    top: 8px;
+    width: 6px;
+    height: 6px;
   }
 }

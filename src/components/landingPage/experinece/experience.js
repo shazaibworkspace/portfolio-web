@@ -55,7 +55,7 @@ const Experience = () => {
                   with a focus on performance optimization.
                 </li>
                 <li>
-                  Mentored a team of 20 full-stack developers and designers,
+                  Mentored a team of 10 full-stack developers and designers,
                   ensuring high-quality deliverables and adherence to project
                   timelines.
                 </li>

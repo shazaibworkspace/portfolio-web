@@ -1,9 +1,9 @@
 .portfolio-section {
   padding: 5.5rem 0 0 0;
 }
-.portfolio-container-content {
+/* .portfolio-container-content {
   padding-top: 3rem;
-}
+} */
 .tab-btn-wrapper {
   display: flex;
   justify-content: center;
@@ -40,7 +40,8 @@
   margin: 0 auto;
 }
 .portfolio-card {
-  background: #272a3f;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   overflow: hidden;
   padding: 0.5rem;
@@ -79,6 +80,7 @@
   color: white;
   font-size: 0.9rem;
   color: #b3bad3;
+  margin: 0;
 }
 .portfolio-tags {
   display: none;

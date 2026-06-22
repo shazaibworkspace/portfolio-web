@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 .banner-section {
-  background: #1f2235 !important;
+  background: linear-gradient(135deg, #0a0a0f 0%, #12121a 50%, #0a0a0f 100%) !important;
   height: 100%;
   position: relative;
   min-height: 100vh;
+  overflow: hidden;
 }
 .banner-section::before {
   position: absolute;
@@ -11,7 +12,7 @@
   left: 50%;
   transform: translate(-50%, -50%) rotate(-30deg);
   content: "Muhammad Shazaib";
-  color: rgba(255, 255, 255, 0.02);
+  color: rgba(255, 74, 87, 0.03);
   font-size: 70px;
   font-weight: bold;
   text-align: center;
@@ -28,21 +29,26 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 1rem;
 }
-.banner-container-left p {
-  color: #3d3f58;
+.banner-welcome {
+  color: #ff4a57;
   margin: 0;
-  font-size: 1rem;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.banner-container-left h1 {
-  color: white;
-  font-size: 2.5rem;
+.banner-heading {
+  color: #ffffff;
+  font-size: 2rem;
   margin: 0;
-  display: flex;
+  /* display: flex;
   align-items: center;
   gap: 0.5rem;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  font-weight: 600;
+  text-shadow: 0 0 30px rgba(255, 74, 87, 0.2);
 }
 .wave {
   animation-name: wave-animation;
@@ -79,23 +85,26 @@
   }
 }
 
-.banner-container-left h2 {
+.banner-subheading {
   color: #9c72be;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0;
   display: flex;
+  align-items: center;
 }
-.banner-container-left h2 span {
+.banner-subheading span {
   font-style: italic;
   text-align: center;
 }
 .animated-word-wrapper {
-  width: 150px;
-  min-width: 150px;
+  width: 120px;
+  min-width: 120px;
   text-align: center;
 }
 .animated-word {
   transition: opacity 0.5s ease;
+  color: #ff4a57;
+  font-weight: 500;
 }
 
 .fade {
@@ -105,85 +114,276 @@
 .banner-btn-wrapper {
   display: flex;
   align-items: center;
-  gap: 0.7rem;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 .banner-btn-wrapper a {
   border: 2px solid #ff4a57;
   color: white;
-  padding: 0.6rem 1.5rem;
-  border-radius: 30px;
-  transition: all 0.5s;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
-.banner-btn-wrapper a:hover {
-  background: #ff4a57;
-  transform: scale(1.05);
-}
-.banner-btn-wrapper a:nth-of-type(2) {
-  background: #ff4a57;
-}
-.banner-btn-wrapper a:nth-of-type(2):hover {
+.banner-btn-wrapper .btn-primary {
   background: transparent;
 }
+.banner-btn-wrapper .btn-primary:hover {
+  background: #ff4a57;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 74, 87, 0.4);
+}
+.banner-btn-wrapper .btn-secondary {
+  background: #ff4a57;
+}
+.banner-btn-wrapper .btn-secondary:hover {
+  background: transparent;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 74, 87, 0.4);
+}
 .banner-btn-wrapper a img {
-  width: 16px;
+  width: 18px;
 }
 
 .banner-container-right {
   flex: 1;
   padding-top: 80px;
   display: flex;
-  justify-content: flex-end;
-  animation: moveUpDown 2s infinite alternate;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-@keyframes moveUpDown {
-  0% {
+
+.tech-icons-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+.tech-icon {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+}
+
+.tech-icon:hover {
+  transform: scale(1.1);
+  border-color: #ff4a57;
+  box-shadow: 0 12px 40px rgba(255, 74, 87, 0.3);
+}
+
+.tech-icon img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.tech-icon-1 {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: float3 3s ease-in-out infinite;
+}
+
+.tech-icon-2 {
+  top: 30%;
+  right: 0;
+  animation: float1 2.5s ease-in-out infinite;
+}
+
+.tech-icon-3 {
+  bottom: 10%;
+  right: 10%;
+  animation: float2 3.2s ease-in-out infinite;
+}
+
+.tech-icon-4 {
+  bottom: 10%;
+  left: 17%;
+  transform: translateX(-50%);
+  animation: float1 2.8s ease-in-out infinite;
+}
+
+.tech-icon-5 {
+  bottom: 45%;
+  left: 10%;
+  animation: float3 3.5s ease-in-out infinite;
+}
+
+.floating-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(255, 74, 87, 0.1), rgba(156, 114, 190, 0.1));
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.circle-1 {
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 4s ease-in-out infinite;
+}
+
+.circle-2 {
+  width: 280px;
+  height: 280px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 4s ease-in-out infinite 0.5s;
+}
+
+.circle-3 {
+  width: 360px;
+  height: 360px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 4s ease-in-out infinite 1s;
+}
+
+@keyframes float1 {
+  0%, 100% {
     transform: translateY(0);
   }
-  100% {
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes float2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
     transform: translateY(-20px);
   }
 }
-.banner-container-right img {
-  width: fit-content;
-  max-width: 100%;
+
+@keyframes float3 {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-18px);
+  }
 }
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}
+
 @media screen and (max-width: 991px) {
   .banner-section {
     margin-top: 80px;
   }
   .banner-container {
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 3rem;
     padding-top: 5rem;
+  }
+  .banner-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .banner-subheading {
+    font-size: 1.4rem;
+    justify-content: center;
+  }
+  .banner-btn-wrapper {
+    justify-content: center;
+  }
+  .tech-icons-container {
+    width: 280px;
+    height: 280px;
+  }
+  .tech-icon {
+    width: 65px;
+    height: 65px;
+  }
+  .tech-icon img {
+    width: 40px;
+    height: 40px;
+  }
+  .circle-1 {
+    width: 160px;
+    height: 160px;
+  }
+  .circle-2 {
+    width: 220px;
+    height: 220px;
+  }
+  .circle-3 {
+    width: 280px;
+    height: 280px;
   }
 }
 @media screen and (max-width: 576px) {
   .banner-container-left {
     align-items: center;
   }
-  .banner-container-left p {
+  .banner-welcome {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
-  .banner-container-left h1 {
-    font-size: 1.5rem;
+  .banner-heading {
+    font-size: 1.8rem;
   }
-  .banner-container-left h2 {
-    font-size: 1rem;
+  .banner-subheading {
+    font-size: 1.1rem;
   }
   .animated-word-wrapper {
-    width: 100px;
-    min-width: 100px;
+    width: 120px;
+    min-width: 120px;
   }
-
   .banner-btn-wrapper a {
-    padding: 0.4rem 1.2rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
   }
-  .banner-container-right {
-    padding-top: 0;
+  .tech-icons-container {
+    width: 240px;
+    height: 240px;
   }
-  .banner-container-right img {
-    width: 80%;
-    margin: 0 auto;
+  .tech-icon {
+    width: 55px;
+    height: 55px;
+  }
+  .tech-icon img {
+    width: 32px;
+    height: 32px;
+  }
+  .circle-1 {
+    width: 130px;
+    height: 130px;
+  }
+  .circle-2 {
+    width: 180px;
+    height: 180px;
+  }
+  .circle-3 {
+    width: 230px;
+    height: 230px;
   }
 }

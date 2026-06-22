@@ -1,5 +1,5 @@
 .about-section {
-  background: #23263a;
+  background: #0f0f15;
   padding: 5.5rem 0 0 0;
 }
 
@@ -17,17 +17,20 @@
   content: "";
   width: 150px;
   height: 3px;
-  background: #ff4a57;
+  background: linear-gradient(90deg, #ff4a57, #9c72be);
+  border-radius: 2px;
 }
 .common-heading h1 {
-  color: white;
+  color: #ffffff;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 .common-heading p {
-  color: white;
+  color: #b3bad3;
   text-align: center;
   font-size: 1rem;
+  margin-top: 1rem;
 }
 .about-container-content {
   padding-top: 3rem;
@@ -35,25 +38,29 @@
   align-items: center;
   gap: 1rem;
 }
-.about-container-left img {
-  min-width: 400px;
-  width: 100%;
-}
 .about-container-right {
-  line-height: 1.8rem;
-  padding: 1rem 0;
+  line-height: 1.9rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
 }
 .about-container-right h1 {
-  color: white;
+  color: #ffffff;
   font-size: 2rem;
   display: flex;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
 }
 .about-container-right p {
-  color: white;
+  color: #d0d2dc;
   font-size: 1rem;
   text-align: justify;
+  margin-bottom: 1rem;
+}
+.about-container-right strong {
+  color: #ff4a57;
 }
 @media screen and (max-width: 991px) {
   .about-container-content {

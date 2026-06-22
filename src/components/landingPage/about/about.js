@@ -17,7 +17,7 @@ const About = () => {
           <h1>About Me</h1>
           <p>
             On a mission to be the world's No. 1 full-stack developer, I’m
-            mastering React.js and front-end development to become the ultimate
+            mastering front-end and back-end development to become the ultimate
             Web Development Hero!
           </p>
         </div>

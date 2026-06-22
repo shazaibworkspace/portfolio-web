@@ -5,10 +5,12 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/layout/navbar/navbar";
 import LandingPage from "./pages/landingPage";
 import SideLink from "./components/common/sideLink/sideLink";
+import ScrollProgressBar from "./components/common/ScrollProgressBar/ScrollProgressBar";
 
 function App() {
   return (
     <>
+      <ScrollProgressBar />
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
