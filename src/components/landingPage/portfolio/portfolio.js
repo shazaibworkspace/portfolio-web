@@ -25,7 +25,11 @@ const Portfolio = () => {
                   <div className="portfolio-card">
                     <div className="portfolio-content">
                       <div className="portfolio-img-wrapper">
-                        <img src={item.image} alt={item.title} />
+                        <img
+                          src={item.image}
+                          alt={`${item.title} website screenshot`}
+                          loading="lazy"
+                        />
                       </div>
                       <div className="portfolio-body">
                         <h1 className="portfolio-heading">{item.title}</h1>
@@ -42,7 +46,12 @@ const Portfolio = () => {
                       </div>
                     </div>
                     <div className="portfolio-card-btn">
-                      <a href={item.websiteLink} target="_blank">
+                      <a
+                        href={item.websiteLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`Visit ${item.title} website`}
+                      >
                         <svg
                           aria-labelledby="svg-inline--fa-title-wBsrgQ2DjvV4"
                           data-prefix="fas"

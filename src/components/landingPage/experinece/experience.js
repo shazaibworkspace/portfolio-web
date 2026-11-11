@@ -28,7 +28,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-container-right">
-              <h1>Senior Full-Stack Developer | MERN Stack</h1>
+              <h1>Full Stack Developer | Web, App & AI</h1>
               <p>Kodex Technologies</p>
               <ul>
                 <li>
@@ -58,6 +58,29 @@ const Experience = () => {
                   Mentored a team of 10 full-stack developers and designers,
                   ensuring high-quality deliverables and adherence to project
                   timelines.
+                </li>
+                <li>
+                  Built cross-platform Flutter apps for Android and iOS,
+                  including User, Technician, Sub-Contractor, Admin and Super
+                  Admin portals that run on the same backend APIs as the Next.js
+                  web platform (FoxtServe).
+                </li>
+                <li>
+                  Developed full-stack products with Next.js and NestJS using
+                  Prisma ORM with PostgreSQL and Drizzle ORM with SQLite, and
+                  worked with Firebase, Supabase, MongoDB and MySQL; implemented
+                  push notifications for mobile and web apps.
+                </li>
+                <li>
+                  Practiced AI engineering: integrating AI capabilities into web
+                  and mobile products and using AI-assisted tools (Cursor AI,
+                  GitHub Copilot, Trae.ai, Antigravity) to speed up delivery and
+                  code quality.
+                </li>
+                <li>
+                  Handled DevOps work: CI/CD with GitHub Actions, Docker
+                  containers, AWS deployments, Ubuntu servers, Redis caching and
+                  Wrangler database migrations/deployments.
                 </li>
               </ul>
             </div>

@@ -47,6 +47,8 @@ const UbuntuIcon = require("../../../assets/images/ubuntu.png");
 const RedisIcon = require("../../../assets/images/redis.png");
 const DockerIcon = require("../../../assets/images/docker.png");
 const AwsIcon = require("../../../assets/images/aws.png");
+const FlutterIcon = require("../../../assets/images/flutter-icon.png");
+const SupabaseIcon = require("../../../assets/images/supabase-icon.png");
 const expertiseContent = [
   {
     title: "Expertise",
@@ -77,11 +79,23 @@ const expertiseContent = [
     ],
   },
   {
+    title: "Mobile App Development",
+    skills: [
+      {
+        name: "Flutter",
+        icon: FlutterIcon,
+        description: "Flutter (Android & iOS)",
+      },
+    ],
+  },
+  {
     title: "Databases",
     skills: [
       { name: "MongoDB", icon: MongoIcon, description: "MongoDB" },
       { name: "MySQL", icon: MysqlIcon, description: "MySQL" },
       { name: "PostgreSQL", icon: PostIcon, description: "PostgreSQL" },
+      { name: "Firebase", icon: FirebaseIcon, description: "Firebase" },
+      { name: "Supabase", icon: SupabaseIcon, description: "Supabase" },
     ],
   },
   // {

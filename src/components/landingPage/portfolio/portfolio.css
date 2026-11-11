@@ -86,17 +86,21 @@
   display: none;
   gap: 0.5rem;
   flex-wrap: wrap;
+  max-width: 100%;
 }
 .tag-card {
   color: hsla(0, 0%, 100%, 0.699);
   border: 1px solid #ff4a57;
   width: fit-content;
+  max-width: 100%;
   padding: 0.2rem 0.5rem;
   font-size: 0.9rem;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-wrap: anywhere;
+  text-align: center;
 }
 .portfolio-card-btn {
   display: flex;
@@ -112,6 +116,11 @@
 }
 .portfolio-card-btn a:hover svg path {
   fill: #ff4a57;
+}
+.portfolio-card-btn a:focus-visible {
+  outline: 2px solid #ff4a57;
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 @media screen and (max-width: 576px) {
   .portfolio-container-content {

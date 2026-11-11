@@ -1,13 +1,13 @@
-const PortfolioOne = require("../../../assets/images/project1.png");
-const PortfolioThree = require("../../../assets/images/portfolio-3.png");
 const PortfolioFour = require("../../../assets/images/portfolio-4.png");
-const PortfolioTen = require("../../../assets/images/project10.png");
 const PortfolioEleven = require("../../../assets/images/project11.png");
 const SunChoiceProject = require("../../../assets/images/sunchoice-project.png");
 const ShippelloProject = require("../../../assets/images/shipello-project.png");
 const QadriAutos = require("../../../assets/images/qadri-autos.pk.png");
 const CasanaProject = require("../../../assets/images/casana-project.png");
 const LiveliProject = require("../../../assets/images/liveli-project.png");
+const TangiblProject = require("../../../assets/images/tangibl-project.png");
+const FoxtServeProject = require("../../../assets/images/foxtserve-project.png");
+const BabySosProject = require("../../../assets/images/babysos-project.png");
 const portfolioData = [
   {
     title: "Sunchoice",
@@ -26,38 +26,22 @@ const portfolioData = [
     websiteLink: "https://sunchoice.us/",
   },
   {
-    title: "Lineicons",
-    image: PortfolioOne,
+    title: "Tangibl",
+    image: TangiblProject,
     description:
-      "Handcrafted UI icons for modern user interfaces of web, mobile, and desktop app design and development projects. Lineicons is a huge and comprehensive pack of professionally designed icons, available in all vector formats that are easy to use on the web, design, coding, and beyond.",
-    tags: [
-      "React",
-      "Context API",
-      "Tailwind",
-      "Firebase",
-      "NodeJS",
-      "SSLCOMMERZ",
-    ],
+      "Tangibl is a 3D sneaker customization platform with real-time Three.js rendering of GLB models, so colors, textures, and parts update in a live preview. The Next.js frontend is backed by NestJS, Prisma ORM, and PostgreSQL.",
+    tags: ["Next.js", "Three.js", "NestJS", "Prisma", "PostgreSQL"],
     type: ["Full Stack", "Front End", "Others"],
-    websiteLink: "https://lineicons.com/",
+    websiteLink: "https://tangibl.ai",
   },
-
   {
-    title: "Smart Dhopa",
-    image: PortfolioThree,
+    title: "FoxtServe",
+    image: FoxtServeProject,
     description:
-      "This is an Online Laundry Platform web Application for E-commerce business and Manage order and Authentication with firebase. User can buy listed services by logging into it with shopping cart functionality",
-    tags: [
-      "React",
-      "Express",
-      "MongoDB",
-      "Firebase",
-      "NodeJS",
-      "Material UI",
-      "Reactstrap",
-    ],
+      "FoxtServe is a property services platform for homes and businesses, built in Next.js with SQLite, Drizzle ORM, and Wrangler migrations. Companion Flutter apps for Android and iOS cover the User, Technician, Sub-Contractor, Admin, and Super Admin portals on the same backend APIs.",
+    tags: ["Next.js", "SQLite", "Drizzle ORM", "Wrangler", "Flutter"],
     type: ["Full Stack", "Front End", "Others"],
-    websiteLink: "https://smart-dhopa-online-laundry-app.web.app/",
+    websiteLink: "https://foxtserve.com",
   },
   {
     title: "Doctor's Portal",
@@ -76,20 +60,13 @@ const portfolioData = [
     websiteLink: "https://online-doctors-portal.web.app/",
   },
   {
-    title: "Cuckoo",
-    image: PortfolioTen,
+    title: "BabySOS",
+    image: BabySosProject,
     description:
-      "Fast, fair, feel-good broadband Full fibre speeds and the best customer service you've ever had.",
-    tags: [
-      "React",
-      "Context API",
-      "Tailwind",
-      "Firebase",
-      "NodeJS",
-      "SSLCOMMERZ",
-    ],
-    type: ["Landing Page", "Front End", "Others"],
-    websiteLink: "https://www.cuckoo.co/",
+      "BabySOS is the Next.js frontend website for the BabySOS childcare app, connecting families with vetted caregivers for planned care and one-tap backup.",
+    tags: ["Next.js"],
+    type: ["Front End", "Landing Page", "Others"],
+    websiteLink: "https://babysosapp.com/",
   },
   {
     title: "Skyfi",

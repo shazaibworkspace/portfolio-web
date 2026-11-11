@@ -34,19 +34,21 @@ const About = () => {
               Hi There<span>✌</span>
             </h1>
             <p>
-              I am a senior full-stack developer with over 3 years of extensive
-              experience in building high-performance web applications using
-              modern technologies. My expertise lies in creating dynamic and
-              responsive user interfaces, ensuring seamless user experiences,
-              and delivering scalable, maintainable solutions.
+              I am a Full Stack Engineer with over 3 years of extensive
+              experience in building high-performance web applications, mobile
+              apps, and AI products using modern technologies. My expertise lies
+              in creating dynamic and responsive user interfaces, ensuring
+              seamless user experiences, and delivering scalable, maintainable
+              solutions.
             </p>
             <p>
-              As a Full-Stack Developer specializing in MERN and MEAN stacks,
-              I build powerful frontend experiences while delivering backend
-              APIs, database design, and deployable cloud-ready applications.
-              My toolkit includes React.js, Next.js, Express.js, NestJS,
-              MongoDB, MySQL, PostgreSQL, Docker, AWS, Redis, Ubuntu, and
-              GitHub Actions.
+              As a Full-Stack Developer building complete products across web,
+              mobile (Flutter for Android & iOS) and AI, I build powerful
+              frontend experiences while delivering backend APIs, database
+              design, and deployable cloud-ready applications. My toolkit
+              includes React.js, Next.js, Flutter, Express.js, NestJS, Prisma,
+              Drizzle ORM, MongoDB, MySQL, PostgreSQL, Firebase, Supabase,
+              Docker, AWS, Redis, Ubuntu, and GitHub Actions.
             </p>
             <p>
               Technical Specifications:
@@ -55,10 +57,17 @@ const About = () => {
               Toolkit, TypeScript, Vite, SCSS
               <br />
               <strong>Back-End Technologies:</strong> Node.js, Express.js,
-              NestJS, MongoDB, MySQL, PostgreSQL
+              NestJS, MongoDB, MySQL, PostgreSQL, Prisma, Drizzle ORM, SQLite,
+              Firebase, Supabase
+              <br />
+              <strong>Mobile Development:</strong> Flutter (Android & iOS), Push
+              Notifications
+              <br />
+              <strong>AI Engineering:</strong> AI-powered features, AI-assisted
+              development (Cursor AI, GitHub Copilot, Trae.ai, Antigravity)
               <br />
               <strong>DevOps & Tools:</strong> Docker, AWS, Redis, Ubuntu,
-              GitHub Actions (CI/CD)
+              GitHub Actions (CI/CD), Wrangler
               <br />
               <strong>State Management:</strong> Advanced knowledge of Redux
               Toolkit, Context API, and React Query for efficient state

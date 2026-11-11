@@ -6,7 +6,7 @@ import ReactIcon from "../../../assets/images/reactjs-icon.png";
 import NodeIcon from "../../../assets/images/node-icon.png";
 import MongoIcon from "../../../assets/images/mongo-icon.png";
 import GitIcon from "../../../assets/images/git-icon.png";
-import DockerIcon from "../../../assets/images/docker.png";
+import FlutterIcon from "../../../assets/images/flutter-icon.png";
 
 import scrollSection from "../../common/scrollSection/scrollSection";
 
@@ -36,7 +36,7 @@ const Banner = () => {
     scrollSection(sectionId);
   };
   const openPdf = () => {
-    const file = process.env.PUBLIC_URL + "/cv.pdf";
+    const file = process.env.PUBLIC_URL + "/shazaib_cv.pdf";
     console.log(file);
     window.open(file, "_blank");
   };
@@ -81,7 +81,7 @@ const Banner = () => {
                 <img src={GitIcon} alt="Git" />
               </div>
               <div className="tech-icon tech-icon-5">
-                <img src={DockerIcon} alt="Docker" />
+                <img src={FlutterIcon} alt="Flutter" />
               </div>
               <div className="floating-circle circle-1"></div>
               <div className="floating-circle circle-2"></div>
