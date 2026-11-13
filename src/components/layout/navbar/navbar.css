@@ -36,6 +36,8 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
 }
 .navbar-link-wrapper ul {
   padding-left: 0;
@@ -44,6 +46,95 @@
   list-style: none;
   align-items: center;
   gap: 1.5rem;
+}
+.navbar-whatsapp-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 8px 18px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-bottom: none;
+  box-shadow: 0 0 18px rgba(37, 211, 102, 0.45);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 2;
+  white-space: nowrap;
+  line-height: 1;
+}
+.navbar-whatsapp-btn:hover,
+.navbar-whatsapp-btn:focus {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: none;
+  text-shadow: none;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 0 28px rgba(37, 211, 102, 0.65);
+}
+.navbar-whatsapp-btn::before,
+.navbar-whatsapp-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  border: 2px solid rgba(37, 211, 102, 0.55);
+  pointer-events: none;
+  animation: wa-pulse 2s ease-out infinite;
+}
+.navbar-whatsapp-btn::after {
+  animation-delay: 1s;
+}
+.navbar-whatsapp-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  animation: wa-ring 3s ease-in-out infinite;
+}
+.navbar-whatsapp-label {
+  color: #ffffff;
+}
+@keyframes wa-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+@keyframes wa-ring {
+  0%,
+  82%,
+  100% {
+    transform: rotate(0deg);
+  }
+  86% {
+    transform: rotate(14deg);
+  }
+  90% {
+    transform: rotate(-12deg);
+  }
+  94% {
+    transform: rotate(8deg);
+  }
+  98% {
+    transform: rotate(-4deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .navbar-whatsapp-btn::before,
+  .navbar-whatsapp-btn::after,
+  .navbar-whatsapp-icon {
+    animation: none;
+  }
 }
 .navbar-link-wrapper ul li a {
   color: #e0e0e0;
@@ -73,6 +164,19 @@
 }
 
 @media screen and (max-width: 991px) {
+  .navbar-logo-wrapper {
+    width: 150px;
+    min-width: 150px;
+  }
+  .navbar-logo-wrapper h1 {
+    font-size: 20px;
+    text-align: left;
+  }
+  .navbar-link-wrapper {
+    gap: 0.75rem;
+    width: auto;
+    flex: 1;
+  }
   .navbar-link-wrapper button {
     display: block;
   }
@@ -93,5 +197,19 @@
   }
   .open {
     left: 0 !important;
+  }
+  .navbar-whatsapp-btn {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    padding: 0;
+    border-radius: 50%;
+  }
+  .navbar-whatsapp-label {
+    display: none;
+  }
+  .navbar-whatsapp-icon {
+    width: 20px;
+    height: 20px;
   }
 }

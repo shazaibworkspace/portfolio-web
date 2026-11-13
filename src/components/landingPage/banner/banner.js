@@ -36,7 +36,7 @@ const Banner = () => {
     scrollSection(sectionId);
   };
   const openPdf = () => {
-    const file = process.env.PUBLIC_URL + "/shazaib_cv.pdf";
+    const file = process.env.PUBLIC_URL + "/shazaib_resume.pdf";
     console.log(file);
     window.open(file, "_blank");
   };
