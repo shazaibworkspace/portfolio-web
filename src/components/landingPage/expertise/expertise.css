@@ -24,6 +24,7 @@
   text-transform: uppercase;
   letter-spacing: 4px;
   background: rgba(255, 74, 87, 0.05);
+  text-align: center;
 }
 .expertise-card-body {
   display: flex;

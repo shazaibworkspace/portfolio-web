@@ -341,8 +341,22 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .banner-section{
+    min-height: unset;
+  }
+  .banner-section::before {
+    display: none;
+  }
+  .banner-container{
+    min-height: unset;
+  }
   .banner-container-left {
     align-items: center;
+    flex: 0 0; 
+  }
+  .banner-container-right{
+    flex: 0 0; 
+    padding-top: 0;
   }
   .banner-welcome {
     text-align: center;
